@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Yanyan Xu - MIT</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My homepage</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Yanyan Xu - MIT</h1>
+
+</div>
+
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+<div class="figure">
+<img src="images/headshot_xu_300.jpg" />
+
+</div>
+<h1 id="yanyan-xu"><strong>Yanyan Xu</strong></h1>
+<p><a href="mailto:yanyanxu@mit.edu">yanyanxu@mit.edu</a> <br></p>
+<p>Postdoctoral Associate <br> HuMNet Lab <br> Department of City and Regional Planning, <br> UC Berkeley <br> <br></p>
+<h3 id="biography" style="padding-top: 0px;"><em>Biography</em></h3>
+<p>I am a postdoctoral associate in <a href="http://humnetlab.mit.edu/">Human Mobility and Networks (HuMNet) Lab</a> at the Department of City and Regional Planning, UC Berkeley, supervised by Prof. <a href="https://cee.mit.edu/people_individual/marta-c-gonzalez/">Marta C. Gonzalez</a>. Before comming to Berkeley, I was a postdoctoral associate at Department of Civil and Environmental Engineering, <a href="http://www.mit.edu">MIT</a> from Sep. 2015 to Oct. 2018 in Marta’s group, a guest postdoctoral fellow in the Energy Analysis and Environmental Impacts Division, Lawrence Berkeley National Laboratory from Dec. 2017 to Oct. 2018. I got the Ph.D. in Department of Automation supervised by Prof. Yuncai Liu at <a href="http://www.sjtu.edu.cn">Shanghai Jiao Tong University</a> in 2015 and hold M.S. and B.S degrees in <a href="http://www.sdu.edu.cn">Shandong University</a>. <br></p>
+<p>My research is on human mobility and urban computing, with particular emphasis placed on the use of massive trajectory data in Intelligent Transportation Systems and Smart City from interdisciplinary perspective.<br></p>
+<p><br></p>
+<h3 id="academic-services" style="padding-top: 0px;"><em>Academic Services</em></h3>
+<ul>
+<li>Workshop Chair of <a href="http://www.psivt.org/psivt2019/index.html">PSIVT 2019</a>, Sydney, Australia</li>
+</ul>
+<p><br></p>
+<h4 id="peer-review-for-journals">Peer Review for Journals:</h4>
+<ul>
+<li><p>Nature Energy</p></li>
+<li><p>Data Mining and Knowledge Discovery</p></li>
+<li><p>IEEE Transactions on Mobile Computing</p></li>
+<li><p>IEEE Transactions on Intelligent Transportation Systems</p></li>
+<li><p>IEEE Transactions on Vehicular Technology</p></li>
+<li><p>IEEE Intelligent Transportation Systems Magazine</p></li>
+<li><p>IEEE Access</p></li>
+<li><p>Computers, Environment and Urban Systems</p></li>
+<li><p>Transportation Research Part C: Emerging Technologies</p></li>
+<li><p>Transportmetrica A: Transport Science</p></li>
+<li><p>Transportation Research Board Annual Meeting (ADC20)</p></li>
+</ul>
+<p><br> <br></p>
+<p><a href="doc/cv_yanyan_xu.pdf">Download my CV</a></p>
+</div>
+<div class="col-sm-6">
+<p><img src="images/Rio_Olympic.png" /> Figure: Travel demand management during Rio Olympics 2016.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
